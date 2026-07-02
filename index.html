@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Stashbar</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; max-width: 700px; margin: 50px auto; padding: 0 20px; line-height: 1.7; color: #222; }
+    h1 { font-size: 28px; }
+    h2 { font-size: 20px; margin-top: 30px; }
+    table { border-collapse: collapse; width: 100%; margin: 15px 0; }
+    th, td { border: 1px solid #ddd; padding: 8px 12px; text-align: left; }
+    th { background: #f5f5f5; }
+    a { color: #6366f1; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy for Stashbar</h1>
+  <p><strong>Last updated: July 2, 2026</strong></p>
+
+  <h2>Summary</h2>
+  <p>Stashbar is a Chrome extension for organizing bookmarks. We take your privacy seriously. This policy explains what data we collect, how we use it, and your rights.</p>
+
+  <h2>Data We Collect</h2>
+
+  <h3>Information you provide</h3>
+  <ul>
+    <li><strong>Google account email address</strong> — collected when you sign in, used to identify your account and sync your bookmarks across devices.</li>
+    <li><strong>Bookmarks (Spaces, Groups, Stashes)</strong> — the URLs and titles you choose to save. This is the core function of the extension.</li>
+    <li><strong>Subscription status</strong> — whether you are on a Free, Pro, or Legend plan. Used to enforce feature limits.</li>
+  </ul>
+
+  <h3>Information we do NOT collect</h3>
+  <ul>
+    <li>Browsing history (we only know URLs you explicitly bookmark)</li>
+    <li>Passwords or credentials (authentication is handled by Google)</li>
+    <li>Financial information (payments are processed by Stripe)</li>
+    <li>Location data</li>
+    <li>Website content</li>
+    <li>Health information</li>
+  </ul>
+
+  <h2>How We Use Your Data</h2>
+  <p>All data is used exclusively for Stashbar's single purpose — saving, organizing, and syncing your bookmarks:</p>
+
+  <table>
+    <tr><th>Data</th><th>Purpose</th></tr>
+    <tr><td>Email address</td><td>Account identification and cross-device sync</td></tr>
+    <tr><td>Bookmarks</td><td>Core functionality — saving and organizing your links</td></tr>
+    <tr><td>Subscription status</td><td>Enforcing plan limits (Free vs Pro vs Legend)</td></tr>
+    <tr><td>Tab activity (local only)</td><td>Automatic tab hibernation to save memory</td></tr>
+  </table>
+
+  <h2>Data Storage & Security</h2>
+  <ul>
+    <li>Your bookmarks and account data are stored in <strong>Firebase Firestore</strong>, a secure cloud database provided by Google.</li>
+    <li>Data is protected by Firestore security rules that ensure you can only access your own data.</li>
+    <li>Authentication is handled through <strong>Google OAuth2</strong> — your Google password is never seen or stored by Stashbar.</li>
+    <li>Tab hibernation state is stored <strong>locally</strong> on your device using <code>chrome.storage.local</code> and is never transmitted.</li>
+  </ul>
+
+  <h2>Third-Party Services</h2>
+  <p>Stashbar uses the following third-party services to operate:</p>
+
+  <table>
+    <tr><th>Service</th><th>Purpose</th><th>Privacy Policy</th></tr>
+    <tr><td>Firebase (Google)</td><td>Authentication and data storage</td><td><a href="https://firebase.google.com/support/privacy">Firebase Privacy</a></td></tr>
+    <tr><td>Stripe</td><td>Payment processing for Pro subscriptions</td><td><a href="https://stripe.com/privacy">Stripe Privacy</a></td></tr>
+  </table>
+
+  <p><strong>We do not sell, rent, or share your data with any third party</strong> beyond these essential services. Your data is never used for advertising, analytics, or any purpose unrelated to Stashbar's functionality.</p>
+
+  <h2>Data Retention</h2>
+  <ul>
+    <li>Your data is stored as long as your account exists.</li>
+    <li>Tab hibernation data is stored locally on your device and is removed when tabs are closed.</li>
+    <li>If you sign out or uninstall the extension, your local data is removed. Your cloud data remains until you delete it.</li>
+  </ul>
+
+  <h2>Your Rights</h2>
+  <ul>
+    <li>You can delete your data at any time by removing Spaces, Groups, and Stashes from within the extension.</li>
+    <li>You can sign out at any time from the Account panel.</li>
+    <li>To completely delete all your cloud data, contact us (see below).</li>
+  </ul>
+
+  <h2>Changes to This Policy</h2>
+  <p>We may update this policy from time to time. Changes will be posted on this page.</p>
+
+  <h2>Contact</h2>
+  <p>For questions about this privacy policy or your data, contact:<br>
+  <strong>Email:</strong> raffe@bergwallofficial.com</p>
+</body>
+</html>
